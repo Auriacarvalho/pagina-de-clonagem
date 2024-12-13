@@ -1,0 +1,156 @@
+/* Resetando estilos padrão */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout principal */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #F8FAFC; /* Cor de fundo principal */
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #D9EAFD; /* Cor de fundo mais suave */
+  color: #2B2B2B; /* Cor de texto escura */
+  padding: 50px 0;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+  color: #2B2B2B;
+}
+
+header p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #BCCCDC; /* Cor secundária suave */
+}
+
+.cta-btn {
+  background-color: #BCCCDC; /* Botão em cor suave */
+  color: #2B2B2B;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #C9AA6B; /* Botão muda para cor mais quente no hover */
+}
+
+/* Seção sobre */
+.about {
+  background-color: #FFFFFF; /* Fundo branco para destacar o conteúdo */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2B2B2B;
+}
+
+.about p {
+  font-size: 1.2em;
+  color: #BCCCDC;
+}
+
+/* Seção do formulário */
+.form-section {
+  background-color: #F8FAFC; /* Cor de fundo semelhante ao body */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.form-section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #2B2B2B;
+}
+
+input, textarea {
+  width: 80%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #BCCCDC;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #D9EAFD; /* Cor de botão */
+  color: #2B2B2B;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1.2em;
+}
+
+button:hover {
+  background-color: #C9AA6B; /* Cor de hover no botão */
+}
+
+#form-feedback {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #2B2B2B;
+}
+
+/* Rodapé */
+footer {
+  background-color: #2B2B2B; /* Cor escura para o rodapé */
+  color: #F8FAFC; /* Cor clara para o texto */
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  header h1 {
+      font-size: 2.5em;
+  }
+
+  header p {
+      font-size: 1.2em;
+  }
+
+  .cta-btn {
+      font-size: 1em;
+      padding: 10px 20px;
+  }
+
+  .about h2 {
+      font-size: 2em;
+  }
+
+  .about p {
+      font-size: 1em;
+  }
+
+  .form-section h2 {
+      font-size: 2em;
+  }
+
+  input, textarea {
+      width: 90%;
+  }
+}
